@@ -89,7 +89,7 @@ export function main() {
 
   // Load your model
   const loader = new GLTFLoader();
-  loader.load("public/aspasia/scene.gltf", (gltf) => {
+  loader.load("./aspasia/scene.gltf", (gltf) => {
     gltf.scene.traverse((child) => {
       if (child.isMesh) {
         child.material.colorSpace = THREE.LinearSRGBColorSpace;

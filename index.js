@@ -142,7 +142,7 @@ export function main() {
     });
 
     // Rotate model group
-    modelGroup.rotation.y += 0.0025;
+    modelGroup.rotation.y += 0.004;
 
     renderer.render(scene, camera);
     requestAnimationFrame(render);
